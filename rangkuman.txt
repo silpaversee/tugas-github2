@@ -28,3 +28,30 @@
   * git commit -m "<pesan>"  : Menyimpan snapshot riwayat perubahan dari staging area.
   * git reset HEAD~1         : Membatalkan commit terakhir di lokal.
   * git log / --oneline      : Melihat riwayat commit yang pernah dibuat.
+
+  3. PENGGUNAAN REMOTE REPOSITORY & GITHUB
+- GitHub adalah layanan cloud berbasis web untuk meng-hosting repositori Git.
+- File README: Berkas pembuka utama pada repositori untuk memuat informasi, cara penggunaan, dan dokumentasi proyek.
+
+- Perintah Remote & Sinkronisasi:
+  * git branch -M main       : Mengubah nama cabang utama yang aktif menjadi 'main'.
+  * git remote add origin <URL> : Menghubungkan repositori lokal ke server remote GitHub.
+  * git push -u origin main  : Mengunggah riwayat commit lokal ke remote repository di GitHub.
+  * git clone <URL>          : Mengunduh/menyalin repositori jarak jauh ke folder lokal.
+  * git fetch <remote>       : Mengambil data terbaru dari remote tanpa langsung menggabungkannya.
+  * git pull                 : Mengambil sekaligus menggabungkan perubahan dari remote ke branch lokal.
+
+  4. SINTAKS DASAR MARKDOWN (.md)
+- Heading (Judul): Menggunakan simbol pagar `#` (1 sampai 6 tanda pagar untuk menentukan tingkat ukuran).
+- Gaya Teks:
+  * Tebal   : **teks tebal**
+  * Miring  : *teks miring*
+  * Coret   : ~~teks dicoret~~
+- Daftar (List):
+  * Ordered List   : Menggunakan angka urut diikuti titik (contoh: `1. `, `2. `).
+  * Unordered List : Menggunakan tanda hubung (`- `) atau simbol asteris (`* `).
+- Tautan & Gambar:
+  * Link   : [Nama Link](https://alamat-url.com)
+  * Gambar : ![Teks Alternatif](https://alamat-gambar.jpg)
+- Tabel: Menggunakan garis vertikal `|` sebagai pembatas kolom dan strip `-` untuk pemisah header.
+- Blok Kode (Code Block): Menggunakan tiga backtick (```bahasa ... ```) untuk menampilkan potongan baris kode.
