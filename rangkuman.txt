@@ -1,0 +1,6 @@
+1. VERSION CONTROL SYSTEM (VCS)
+- Definisi: Praktik pelacakan dan pengelolaan perubahan pada file dari waktu ke waktu.
+- Jenis-jenis VCS:
+  a. VCS Lokal: Menyimpan basis data perubahan di komputer lokal (contoh: RCS).
+  b. VCS Terpusat (Client-Server): Terpusat di satu server utama (contoh: CVS, Subversion).
+  c. VCS Terdistribusi (Peer-to-Peer): Setiap pengguna memiliki salinan penuh riwayat reposit
