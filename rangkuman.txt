@@ -4,3 +4,27 @@
   a. VCS Lokal: Menyimpan basis data perubahan di komputer lokal (contoh: RCS).
   b. VCS Terpusat (Client-Server): Terpusat di satu server utama (contoh: CVS, Subversion).
   c. VCS Terdistribusi (Peer-to-Peer): Setiap pengguna memiliki salinan penuh riwayat reposit
+
+
+  2. DASAR-DASAR GIT
+- Status File pada Git:
+  a. Untracked: File baru yang belum pernah dilacak oleh Git.
+  b. Staged: File yang sudah ditandai dan masuk ke staging area.
+  c. Unmodified: File yang sudah di-commit dan belum mengalami editan baru.
+  d. Modified: File terlacak yang mengalami perubahan isi/kode.
+
+  2. DASAR-DASAR GIT
+- Status File pada Git:
+  a. Untracked: File baru yang belum pernah dilacak oleh Git.
+  b. Staged: File yang sudah ditandai dan masuk ke staging area.
+  c. Unmodified: File yang sudah di-commit dan belum mengalami editan baru.
+  d. Modified: File terlacak yang mengalami perubahan isi/kode.
+
+- Perintah Dasar Git:
+  * git init                 : Menginisialisasi folder menjadi repositori Git lokal.
+  * git config --global ...  : Mengatur konfigurasi pengguna (nama, email, editor, branch default).
+  * git status               : Memeriksa status file pada direktori kerja dan staging area.
+  * git add <file> / .       : Menambahkan file ke staging area.
+  * git commit -m "<pesan>"  : Menyimpan snapshot riwayat perubahan dari staging area.
+  * git reset HEAD~1         : Membatalkan commit terakhir di lokal.
+  * git log / --oneline      : Melihat riwayat commit yang pernah dibuat.
